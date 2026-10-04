@@ -1,0 +1,3520 @@
+{
+  "metrics": {
+    "tag": "finetuned",
+    "n": 500,
+    "accuracy": 0.614,
+    "macro_f1": 0.6135651396745468,
+    "per_class_f1": {
+      "A": 0.596078431372549,
+      "B": 0.648,
+      "C": 0.6303501945525292,
+      "D": 0.5798319327731093
+    },
+    "invalid_rate": 0.0,
+    "mismatch_rate": 0.002,
+    "seconds": 297.8,
+    "hallucination_rate": 0.002
+  },
+  "predictions": [
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Dengue fever",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Aldosterone excess",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Clear cell adenocarcinoma",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "output": "B) Ability to cleave \u03b2-lactam rings",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) It is a diagnosis of exclusion",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Order an ACTH stimulation test",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Traumatic ulcer",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Amitriptyline",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "output": "B) Right-sided Horner's syndrome",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Being single",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Exploratory laparotomy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Narrowing of the lumbar disc space",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Acetaldehyde",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "output": "A) Maternal oligohydramnios",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) Fractional tissue oxygen extraction",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Spherocytes",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) A deviated septum that is now straight, resulting in altered nasal airflow",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) A type 1 error occurs when the null hypothesis is true but is rejected in error.",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Tardive dyskinesia",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Reassurance and follow-up",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Release of prostaglandins",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Normal pressure hydrocephalus",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Decreased pulmonary capillary wedge pressure",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Phosphodiesterase inhibitor",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Straight leg raise",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) 67%",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Intubation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) A reduction in diastolic filling time",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Radionuclide scan of the hip",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Reintubate",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Peroxisome proliferator-activated receptor gamma",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Blood glucose and cholesterol level measurements",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Somatoform pain disorder",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Squeezing the nostrils manually for 10 minutes with the head elevated",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Treat with a single injection of penicillin, obtain titers in 6 months",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Hydrochlorthiazide",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Elevated estrogen levels",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) He may work up to 20 more hours",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Polycystic ovarian syndrome",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Alendronate",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Continue normal breast feeding",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) The association is not statistically significant, and low education is not a risk factor.",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Tension pneumothorax",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Increase in capillary pressure",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) 46XX",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Microcytic red blood cells",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Internal iliac vein",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Invasive ductal carcinoma of the breast",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Propranolol",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Conjugation with a protein carrier provides effective protection to infants",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Reducing daily insulin dose",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Dilation of efferent arteriole",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Transfer the newborn for immediate surgery",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Inhibition of beta-tubulin polymerization",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Down syndrome",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Excess weight",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Inosine monophosphate dehydrogenase",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Increased adenosine deaminase concentration",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Chronic mucosal and submucosal inflammation of the colon",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) LOD Score > 3",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) 1/10",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Deep vein thrombosis\n\"",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Administer norepinephrine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Methylprednisolone, plasmapheresis, and cyclophosphamide",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Intubation and mechanical ventilation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "output": "B) Malignant colonic neoplasm",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Cells staining positive for CD15 and CD30",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Surgical gastropexy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Atelectasis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Tumor arising from cutaneous T cells",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Intravenous ampicillin-sulbactam therapy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Dual-energy x-ray bone absorptiometry",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "output": "A) Celiac disease",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Comprehensive foot exam every year",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Cerebellar degeneration",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Paroxetine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Endoscopic retrograde cholangiopancreatography (ERCP)",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Hypoparathyroidism",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Recurrent laryngeal nerve injury",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) Immune thrombocytopenic purpura",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) Diarrhea",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Histoplasmosis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Retinoic acid",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Tumor stage",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Hyperphosphorylated tau",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Continue antitubercular therapy and antiretroviral therapy without any change",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Binds endogenous peptides that have been transported by the TAP channel",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Intravenous glucose\n\"",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "output": "A) Required for collagen hydroxylation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Increased activity of I cells",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Inhaled albuterol and oxygen",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Dextrose infusion",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Flow cytometry for CD55/CD59",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Decreased gamma globulin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Septic embolism",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Neural tube defect",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Plasmodium falciparum",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Citrate",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Scalded skin syndrome",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Increased capillary hydrostatic pressure",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Inhibits cell wall synthesis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) 32 breaths per minute",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Fee-for-service may incentivize physicians to increase healthcare utilization irrespective of quality",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Chlorine dioxide",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "output": "B) Has no cell wall",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Streptococcus pneumoniae",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "output": "B) Follicular carcinoma",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Tzanck smear with multinucleated giant cells",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) The mischarged tRNA with valine will be incorporated in the codons that specificy for lysine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) X-linked dominant",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Retrograde migration up peripheral nerve axons",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Oxybutynin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Cause buboes in the inguinal lymph nodes",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "output": "A) ADP ribosylation of elongation factor 2",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Breast milk jaundice",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Type II pneumocytes",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) A Western blot will show increased HIF-1\u03b1 compared to a normoxic control.",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Secondary active transporters fail to completely reabsorb glucose in the renal tubules",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Rest and acetaminophen",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Disseminated tuberculosis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Tetanus, diphtheria, and acellular pertussis booster (Tdap) vaccine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "output": "A) Streptococcus pneumoniae",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Secretion of \u03b3-interferon by activated T-lymphocytes",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Autosomal dominant",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) \u201cI'm sorry for your loss. This must be a difficult situation for you.\u201d",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Proguanil",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Chronic obstructive pulmonary disease (COPD)",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Influx of calcium",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Alendronate",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Impaired growth plate mineralization",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) Finasteride",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Common iliac artery aneurysm",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Excess collagen deposition in the extracellular matrix of the lung",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Decreased gastric blood flow",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Vasoactive intestinal peptide",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Pramipexole",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Dilation and curettage",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Parasitic infection",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Gluten-free diet",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Simvastatin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Septal perforators",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Muscarinic antagonist",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Interstitial edema",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) The vascular protrusion drains into the superior rectal vein.",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Head CT",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Cross-linking of DNA",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "output": "A) Posterior limb of the internal capsule",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) Folate deficiency",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Arcuate fasciculus + inferior frontal gyrus + superior temporal gyrus",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Treating the underlying illness",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Spinal metastasis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Runs posteriorly from the medial femoral condyle",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Impaired migration of GnRH neurons",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Chronic obstructive pulmonary disease",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Phosphoinositol system",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Proper diet and iron supplementation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Needle decompression",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Meconium aspiration",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) MRI of the chest",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Reassure the mother",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "output": "A) Tyrosine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) \u2193 \u2191 \u2193",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Decreased methylmalonic acid levels",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Haloperidol and diphenhydramine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Copper",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Decreased release of glycine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Insufficient production of procollagen type 1",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Trichomonas vaginalis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Analysis of variance",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Celiac disease",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Quaternary amine-based solution",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Exertional heat stroke",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Treat and transfer the patient after she makes a written request",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Mesna",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Ketamine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Fluid-filled pouch on ultrasound",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Azithromycin and ethambutol",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Cefepime and levofloxacin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Leydig cell tumor",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Peaked T waves",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Aortic regurgitation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Coronary sinus",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "output": "A) Anaplastic carcinoma",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Progestin therapy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Vaccinia virus",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Deposits of IgG and C3 at the glomerular basement membrane on immunofluoresence",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Uterine artery",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) \u03bc, \u03ba, and \u1e9f receptor antagonist",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Reassuring the parents and use of an enuresis alarm",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Disruption of cell membrane permeability",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Leukotriene D4",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "output": "A) Aortic stenosis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Clostridium tetani",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Conversion of a protein from an a-helix to a \u00df-pleated form, which resists degradation.",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Administration of oral ketorolac",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Reduction in airway surface tension",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Na+/Cl- cotransporter in the membranes of epithelial cells in the distal convoluted tubule",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Oligoclonal IgG bands on electrophoresis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Periductal concentric scarring and fibrosis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Oral ulcers",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Naloxone\n\"",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "output": "A) Prussian Blue",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Left cord hemisection",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) IFN-gamma",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Incision and drainage",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "output": "B) Adverse drug reaction",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Nystatin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Factor V Leiden",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Adenomatous polyp",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Multiple periventricular sclerotic plaques",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Bacterial translocation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Breast cancer",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Diarrhea",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) gp120",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Bed rest and activity limitation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Endometrial sloughing and uterine contractions mediated by prostaglandin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Normal-pressure hydrocephalus",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Chronic obstructive pulmonary disease",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "output": "A) Gastroesophageal reflux disease",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Bladder catheterization",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Ciprofloxacin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Clostridium perfringens",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "output": "A) Alteplase",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Epinephrine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Short stature",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Ultrasonography of the neck",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Chickenpox",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Upper endoscopy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Urate crystals",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Myxedema coma",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Obstruction of the cystic duct",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Apply a simple shoulder sling",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Hair tourniquet syndrome",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Cognitive training",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Amniotic fluid entering the endocervical veins",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Erythrocytes with a ring of relative pallor",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Monoclonal gammopathy of undetermined significance (MGUS)",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) HER2",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Double-positive T cell",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Positive Congo-red staining of the cardiac tissue",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Increase in cardiac output",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) 250/25",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Ketotifen eye drops",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Beta-1 adrenergic receptor",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) D-dimer",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Segmental demyelination of peripheral axons",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "output": "A) Inappropriate chest tube placement",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Persistent depressive disorder",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Inhibiting bacterial adherance and colonization of mucous membranes",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Increased lens elasticity",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Conversion of aminolevulinic acid to porphobilinogen",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Normal development",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) Closure of ATP-sensitive K-channels in the pancreatic beta-cell",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "output": "A) Osteosarcoma",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Patients can have a history of both anorexia and bulimia",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Mismatch repair",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Hyaline membranes lining the alveoli on lung biopsy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Involuntary hospitalization after informing the parents",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) No tests required",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Left frontal lobe",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Lower extremity doppler",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Hemolytic uremic syndrome",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Schizotypal personality disorder",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Pseudocyesis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Anti-Sj\u00f6gren's syndrome type B (SS-B) antibody",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Isolated proteinuria",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Pancreatic adenocarcinoma",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Administer hepatitis B vaccine and HBIG",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Telomerase",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Sensory loss over the ulnar aspect of right forearm and right hand",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Decreased ATP",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Nadolol",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Muscle relaxation time: increased, cytosolic calcium concentration: increased",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Superficial spreading",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Chronic, non-bacterial prostatitis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Citalopram",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Portal vein thrombosis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "output": "A) Niacin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Observe and get follow-up imaging in 3 months",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) 3 months prior to conception, begin a restricted diet to lower phenylalanine levels to below 6 mg/dL",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) Vesicovaginal fistula",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Neuron-specific enolase",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) 0.9% saline IV",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Zika virus",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) Cefotaxime",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "output": "A) Hypotension",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Systemic lupus erythematosus",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Methylphenidate",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Pulmonary contusion",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Hypoxanthine-guanine phosphoribosyl transferase of the purine metabolism pathway",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Polycystic ovarian syndrome (PCOS)",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Bethanechol and intermittent straight catheterization",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Jaw claudication",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Iron deficiency",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Folic acid supplementation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Sodium hypochlorite",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Fluoxetine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) It reflects a smaller sample size",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Incomplete penetrance",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Anti-D IgG",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) 50%",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Increased alveolar-arterial gradient",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Functional residual capacity",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Metabolic alkalosis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) NH3 + HCO3- + 2 ATP --> carbamoyl phosphate + 2 ADP + Pi",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "output": "B) Pinna",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Oral glucose tolerance test",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Acetoacetyl-CoA",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Decreased PTH, decreased calcium, increased phosphate, decreased calcitriol",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Endometrial cells",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Generalized anxiety disorder",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "output": "A) Follow the daughter\u2019s wishes to withhold the operation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Decreased Ca2+ influx in phase 0",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Relapse",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Motivational interviewing",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) Primidone",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "output": "A) Wood lamp examination",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Holosystolic murmur at the left lower sternal border",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) Liraglutide",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Aspirin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Pelvic inflammatory disease",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Stop magnesium sulfate and give calcium gluconate",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) 21",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Renal cell carcinoma",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Dermis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Hemolytic uremic syndrome",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Creatine kinase (CK-MB)",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Osteitis deformans",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Ethylene glycol",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Sexually transmitted infection",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Lysosomes",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) \u2193 hemosiderin stores",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Cognitive behavioral therapy (CBT)",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Inflammation and edema",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Anti-cardiolipin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "output": "A) Achlorhydria",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "output": "B) Elective endovascular repair",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) Heat stroke",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Bubonic plague",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Increased progesterone",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Informed consent is not needed in this case",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "output": "A) Low serum potassium",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Lumbar puncture",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Conservative management with IV fluid hydration and observation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) The future risk of open-angle glaucoma is the same in patients with and those without diabetes",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Active or recurrent pelvic inflammatory disease (PID)",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Streptococcus pneumoniae",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Hyperkalemia",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Thoracic aortic aneurysm",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) Autosomal recessive polycystic kidney disorder",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Iodine deficiency",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "output": "A) CT chest without contrast in 24 months",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) pH 7.36, PCO2 22 mmHg, and HCO3- 16 mEq/L",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Treatment with radioactive iodine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Lambert-Eaton syndrome",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Pes anserine bursitis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Dietary restriction of phenylalanine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Stool leukocytes",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Check serum electrolytes",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "output": "A) Left anterior descending artery",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Gitelman's syndrome",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Intubation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Impaired CSF flow through the arachnoid granulations",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Inhibition of lipase",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) Reassurance",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) env gene mutation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Somatic symptom disorder",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Prevents T-cell binding",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) CA 19-9",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Vaginal dilatory therapy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Antineutrophil cytoplasmic antibodies",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) VIPoma",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Mu receptor agonist",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Torsion of the large intestine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Avoidant personality disorder",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Contains genetic material but is unable to survive independent from a host",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Defective hepatic bile excretion",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) A drop in systolic blood pressure of 14 mmHg during inspiration",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Irreversible inhibition of H+/K+-ATPase at parietal cells",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Carcinoma",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Area postrema",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Infundibular septum",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "output": "A) Ethanol",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Lactose-fermenting, gram-negative rods forming pink colonies on MacConkey agar",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) External anal sphincter",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Prolonged QT interval",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Aortoiliac atherosclerosis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Measure serum drug concentration",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Cochlea",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "output": "A) Using survival rates in the analysis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Sargramostim",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Polyribosyl-ribitol-phosphate capsule",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Lowering citalopram dose",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Vitamin K deficiency",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "output": "A) Superfical epidermis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Selective albuminuria",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) New York Heart Association Class III",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Cognitive-behavioral therapy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Deposition of calcium pyrophosphate (CPP) crystals",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Proximal tubule",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Homozygous mutation in the CCR5 gene",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Molluscum contagiosum",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Paraneoplastic syndrome from small cell carcinoma of the lung",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Coagulase-positive cocci in clusters",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "output": "A) Cervical spine fracture",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Oxidation of Fe2+ to Fe3+",
+      "invalid": false,
+      "mismatch": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Fludarabine, cyclophosphamide, rituximab",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Theca leutein cysts",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Epstein barr virus (EBV)",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Urine toxicology",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Duodenal atresia",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Polymyositis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Pseudomonas keratitis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Urinalysis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Pleural effusion",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Costochondritis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "output": "A) This patient does not require further urinary tests unless she becomes symptomatic.",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Major depressive disorder",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Increased heart rate",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Prednisone",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Borderline personality disorder",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Tenderness at the insertion of the Achilles tendon",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Posterior urethral valve",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "output": "A) Increased right ventricular preload",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Creates pores in the cell membrane",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Echocardiogram",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Elevated serum CA-125 level",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Administer calcium gluconate",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Absent Barr bodies on buccal smear",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Silicosis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Androgen insensitivity",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Liquefactive necrosis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "output": "A) Non-enveloped with linear, single-stranded DNA",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Increased alveolar dead space due to absent perfusion of certain alveoli",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Respiratory burst",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Resistance to clotting factor degradation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Choledocholithiasis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Gram-negative bacilli",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Sensorineural hearing loss",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Metoprolol",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Laparoscopy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Buspirone",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) Interferon beta",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Surgical debridement",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Upper gastrointestinal endoscopy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Estrogen",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Crohn\u2019s disease",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Hydrochlorothiazide",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) No effect on afferent arteriole and constriction of efferent arteriole",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Insert chest tube",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "output": "B) Positive whiff test",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Increase in false negative test results",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Amphotericin B",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "output": "A) Superior mesenteric artery",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Vaccination",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "output": "A) Immobilization",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Schistocytes",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Orchiopexy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Catalase-negative",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "output": "A) Administer a blood transfusion to save the patient's life",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Intubate with mechanical ventilation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Airway hyperresponsiveness",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Chronic kidney failure",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Sofosbuvir and ledipasvir therapy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Human herpes virus",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Increased serum amyloid A production",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Cardiac contusion",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Lymphadenopathy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Cervical spinal cord transection",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Polymyositis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Perforated gastric peptic ulcer",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Percutaneous coronary intervention",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Parietal cells",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Insufficient production of antidiuretic hormone",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "output": "A) Postviral inflammatory process",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Desensitization",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Increased cerebrospinal fluid protein with normal cell count",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "output": "B) Primary adrenal insufficiency",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Reassurance",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Glandular tissue enlargement",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Gastric peptic ulcer",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Request further information about which drugs he has taken recently and in the past",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Increased consumption of beta-carotene",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Racemic epinephrine and intramuscular corticosteroid therapy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Repeat antibody screening at 28 weeks. Administer anti-D immunoglobulin at 28 weeks and after delivery if the newborn is Rh(D) positive.",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Accept the patient's wishes and ensure he receives appropriate care.",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Peripheral blood smear",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "output": "A) Decreased carbohydrate intake",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Blocks reuptake of norepinephrine and serotonin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Headache and tinnitus",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "output": "A) Furosemide",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Continuous mucosal damage",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Increased production of nitric oxide",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "output": "A) \u2191 serum transferrin receptors",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Smudge cells",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "output": "A) Hyperproliferation of theca interna cells",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Reassurance",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) Low T4 and T3",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Glutamate capsule",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Relative protein intake",
+      "invalid": false,
+      "mismatch": false
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "smoke_test": false,
+  "n_questions": 500,
+  "eval_indices_file": "eval_indices.json",
+  "baseline": {
+    "tag": "baseline",
+    "n": 500,
+    "accuracy": 0.49,
+    "macro_f1": 0.4871418264275408,
+    "per_class_f1": {
+      "A": 0.40816326530612246,
+      "B": 0.5353535353535354,
+      "C": 0.5,
+      "D": 0.5050505050505051
+    },
+    "invalid_rate": 0.0,
+    "mismatch_rate": 0.02,
+    "seconds": 399.6,
+    "hallucination_rate": 0.02
+  },
+  "finetuned": {
+    "tag": "finetuned",
+    "n": 500,
+    "accuracy": 0.614,
+    "macro_f1": 0.6135651396745468,
+    "per_class_f1": {
+      "A": 0.596078431372549,
+      "B": 0.648,
+      "C": 0.6303501945525292,
+      "D": 0.5798319327731093
+    },
+    "invalid_rate": 0.0,
+    "mismatch_rate": 0.002,
+    "seconds": 297.8,
+    "hallucination_rate": 0.002
+  },
+  "delta": {
+    "accuracy": 0.124,
+    "macro_f1": 0.12642331324700606,
+    "invalid_rate": 0.0,
+    "mismatch_rate": -0.018000000000000002,
+    "hallucination_rate": -0.018000000000000002
+  }
+}

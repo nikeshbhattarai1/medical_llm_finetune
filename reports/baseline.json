@@ -1,0 +1,3520 @@
+{
+  "metrics": {
+    "tag": "baseline",
+    "n": 500,
+    "accuracy": 0.49,
+    "macro_f1": 0.4871418264275408,
+    "per_class_f1": {
+      "A": 0.40816326530612246,
+      "B": 0.5353535353535354,
+      "C": 0.5,
+      "D": 0.5050505050505051
+    },
+    "invalid_rate": 0.0,
+    "mismatch_rate": 0.02,
+    "seconds": 399.6,
+    "hallucination_rate": 0.02
+  },
+  "predictions": [
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Chikungunya\n\nRationale: The patient presents with fever, joint pain (especially in hands and wrists), a maculopapular rash, and fatigue\u2014classic features of chikungunya fever. The history of travel to Vietnam and Cambodia increases the likelihood of a tropical arthritogenic illness",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Impaired kidney perfusion",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Botryoid sarcoma",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "output": "B) Ability to cleave \u03b2-lactam rings",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) It is a diagnosis of exclusion",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Start him on both hydrocortisone and fludrocortisone therapy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Squamous cell carcinoma\n\nRationale: The patient is a 58-year-old man with long-term tobacco and occupational exposure (fruit picking, which may involve friction), and a painless lesion on the lower lip. The presence of a painless ulcer in a high-risk individual with chronic irritation and exposure to",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Methotrexate",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Contralateral corticospinal tract involvement",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Male sex",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Exploratory laparotomy\n\nRationale: This patient has a history of trauma with progressive abdominal pain, signs of peritoneal irritation (rigidity, guarding, tenderness), and hemoperitoneum on bedside ultrasound. The patient has a significant drop in blood pressure (hypotension) and a",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Narrowing of the lumbar disc space",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Acetaldehyde",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Chromosome 18 trisomy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) Fractional tissue oxygen extraction\n\nExplanation:  \nThis patient has a history of heavy alcohol use (10\u201312 beers daily), and presents with hematemesis (bloody vomitus with black specks), signs of hypovolemia (tachycardia, hypotension, pale appearance",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Spherocytes",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) A deviated septum that is now straight, resulting in altered nasal airflow",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) A type 1 error occurs when the null hypothesis is true but is rejected in error.",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Tardive dyskinesia",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) X-ray of the lower extremities",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Mast cell degranulation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Lewy body dementia",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Decreased pulmonary capillary wedge pressure",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "output": "B) Thromboxane synthase inhibitor",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Straight leg raise",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) 50%",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Intubation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) A reduction in the slope of the pacemaker potential",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) MRI of the hip\n\nExplanation: The patient is a 39-year-old African-American woman with sarcoidosis, a systemic granulomatous disease, who presents with progressive left hip and groin pain. Sarcoidosis can involve multiple organs, including the musculoskeletal system, and can lead to",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Reintubate",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Peroxisome proliferator-activated receptor gamma",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Blood glucose and cholesterol level measurements",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Somatoform pain disorder",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Placement of an epinephrine gauze in the left nostril",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Treat with three weekly injections of penicillin, obtain titers in 6 months",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Hydrochlorthiazide",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Erosion of tooth enamel",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) He may work up to 20 more hours",
+      "invalid": false,
+      "mismatch": true
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Polycystic ovarian syndrome",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) IV fluids",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Continue normal breastfeeding",
+      "invalid": false,
+      "mismatch": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) The association is not statistically significant, but low education is a risk factor.",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Tension pneumothorax\n\nExplanation:  \nThe patient has a history of high-speed motor vehicle collision with significant trauma. On examination, she has respiratory distress, tachypnea, hypotension, and decreased breath sounds on the left. The chest X-ray shows a fractured left second rib, depression",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Increase in capillary pressure\n\nExplanation: The patient has a history of myocardial infarction and presents with symptoms of dyspnea, elevated JVP (indicating right heart failure), and bilateral pitting edema. In right heart failure, the right ventricle fails to pump blood effectively, leading",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) 47XYY",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Microcytic red blood cells",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Renal artery",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Invasive ductal carcinoma of the breast",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Amiodarone",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Conjugation with a protein carrier provides effective protection to infants",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "output": "B) Adding pramlintide",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Decreased prostaglandin synthesis by macula densa",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Transfer the newborn for immediate surgery",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Inhibition of dihydrofolate reductase\n\nExplanation: The patient is experiencing peripheral neuropathy following chemotherapy with vincristine. Vincristine is a vinca alkaloid that works by inhibiting microtubule assembly by binding to tubulin and preventing polymerization of microtubules.",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Down syndrome",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Occult malignancy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) DNA gyrase",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Presence of tachyzoites\n\nExplanation:  \nThe patient has HIV and presents with headache, vomiting, nuchal rigidity, and a markedly elevated opening pressure on lumbar puncture\u2014classic signs of meningitis. The pathogen is isolated on Sabouraud agar, which is used for cult",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Arteriovenous malformation in the colonic wall",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) LOD Score > 3",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) 81/100\n\nExplanation:  \nThe patient has a genetic disorder that is likely autosomal recessive, given the clinical features (recurrent infections, pancreatic enzyme replacement, and need for prophylaxis), and the fact that it is inherited in an autosomal recessive pattern with a family",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Deep vein thrombosis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Administer norepinephrine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Methylprednisolone, plasmapheresis, and cyclophosphamide",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) X-rays of the extremities",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "output": "B) Malignant colonic neoplasm\n\nExplanation: The patient presents with a constellation of symptoms and signs consistent with paraneoplastic syndrome, particularly involving the heart and hematologic abnormalities. Key findings include:\n\n- Weight loss, fatigue, fever, and new-onset chest pain and shortness of breath\n",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Cells staining positive for CD15 and CD30",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Surgical gastropexy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Pulmonary embolism",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Tumor arising from cutaneous T cells",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Intravenous ampicillin-sulbactam therapy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Abdominal ultrasonography",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) VIPoma\n\nExplanation:  \nThe patient presents with chronic watery diarrhea, weight loss, bloating, and a history of travel to a tropical region. Key features include:\n\n- Watery stools (up to 12/day), with nocturnal defecation  \n- Abdominal cramps and blo",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Weekly foot inspections by patient or family member\n\nNote: While comprehensive foot exams every year (option B) are recommended for patients with diabetes, the most appropriate and practical preventive measure that is routinely recommended is weekly foot inspections by the patient or family member. However, upon closer review of standard guidelines (e.g.,",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Wernicke's encephalopathy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Paroxetine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Magnetic resonance cholangiopancreatography (MRCP)",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Partial albinism",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Recurrent laryngeal nerve injury",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Hemophilia A\n\nExplanation:  \nThe patient is a 9-year-old boy with widespread bruising and petechiae, normal CBC, and a prolonged aPTT (60 seconds) with a normal PT (12 seconds). The aPTT is prolonged, which is characteristic of disorders affecting the",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Metformin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Histoplasmosis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Retinoic acid",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Tumor stage",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Hyperphosphorylated tau",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Change antitubercular therapy to isoniazid-rifampin-ethambutol-streptomycin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Binds endogenous peptides that have been transported by the TAP channel",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Intravenous thiamine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Required for methylmalonyl-CoA processing",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Increased activity of I cells",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Inhaled albuterol and oxygen\n\nWait \u2014 let's re-evaluate.\n\nThe patient is a 45-year-old mechanic with acute-onset shortness of breath, no asthma history, no smoking, pale, diaphoretic, contracted pupils, and diffuse wheezing. The key clues",
+      "invalid": false,
+      "mismatch": true
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Dextrose infusion",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Flow cytometry for CD55/CD59",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Increased prothrombin time",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Septic embolism",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Neural tube defect",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Plasmodium falciparum\n\nExplanation: The patient has a history of travel to India, a region where malaria is endemic, and presents with high-grade fever, headache, muscle pain, and jaundice. The presence of fragmented erythrocytes and ring-shaped inclusion bodies on blood smear",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Malate\n\nExplanation:  \nSodium fluoroacetate is metabolized to fluoroacetate, which is then converted to fluorocitrate in the citric acid cycle. Fluorocitrate inhibits aconitase, the enzyme that converts citrate to isocitrate. This",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Scalded skin syndrome",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Increased capillary hydrostatic pressure",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Inhibits initiation complex",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) 32 breaths per minute",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Fee-for-service may incentivize physicians to increase healthcare utilization irrespective of quality",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Chlorine dioxide",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Is more common in parrot owners\n\nExplanation: The patient has a history of travel, exposure to local animals and food, and presents with fever, cough, headache, diarrhea, and pulmonary infiltrates. The combination of travel, exposure to animals, and gastrointestinal and respiratory symptoms raises suspicion for a zoonotic",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Streptococcus pneumoniae\n\nRationale: The patient is a 15-year-old boy with a history of fever, sore throat, and generalized malaise, followed by a worsening cough and shortness of breath. He has a right upper lobe infiltrate on chest X-ray, with physical exam",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Papillary carcinoma",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Positive RPR, VDRL, and FTA-ABS",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) The mischarged tRNA with valine will be incorporated in the codons that specify for lysine\n\nExplanation:  \nThe question describes a scenario where a lysyl-tRNA is mistakenly charged with valine (instead of lysine) due to a defect in aminoacyl-tRNA synthetase. The",
+      "invalid": false,
+      "mismatch": true
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) X-linked dominant",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Retrograde migration up peripheral nerve axons",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Oxybutynin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Cause buboes in the inguinal lymph nodes",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Cleaving immunoglobulin A molecules\n\nExplanation: The patient has a history of recurrent gastrointestinal symptoms, including malaise, muscle cramps, nausea, and watery diarrhea, associated with his job at a zoo. The stool culture shows non-lactose fermenting, oxidase-negative, H2S-producing",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Biliary atresia\n\nExplanation:  \nThe infant presents with prolonged jaundice, pale stools, and an elevated direct bilirubin (which is >50% of total bilirubin), along with hepatomegaly. The key features are:\n\n- Prolonged jaund",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Type II pneumocytes",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) A Western blot will show increased HIF-1\u03b1 compared to a normoxic control.",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Secondary active transporters fail to completely reabsorb glucose in the renal tubules\n\nExplanation:  \nThe patient has hyperglycemia (HbA1c 9%, blood glucose 199 mg/dL) and glucosuria. In diabetes mellitus, especially type 2 (as",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Technetium bone scan",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Disseminated tuberculosis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Tetanus, diphtheria, and acellular pertussis booster (Tdap) vaccine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "output": "A) Streptococcus pneumoniae\n\nRationale: The patient is an older adult with a history of stroke (a risk factor for community-acquired pneumonia), presenting with fever, purulent cough, new chest radiographic consolidation, and physical exam findings of basal crackles on the same side. The CBC shows a",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Production of PTH-related peptide by malignant cells",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Autosomal dominant",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) \u201cI'm sorry for your loss. This must be a difficult situation for you.\u201d",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "output": "A) Doxycycline",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Chronic obstructive pulmonary disease (COPD)",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Influx of calcium",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Alendronate",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) Defect in type I collagen",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Flutamide",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Common iliac artery aneurysm",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Excess collagen deposition in the extracellular matrix of the lung",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Bacterial colonization of the gastric antrum",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Renin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Escitalopram",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Dilation and curettage",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Parasitic infection",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Gluten-free diet",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Simvastatin\n\nSimvastatin is a statin that can cause transaminitis as a rare side effect, especially at higher doses or with prolonged use. While most statins are well-tolerated, simvastatin has a known risk of elevating liver enzymes, including transamin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Septal perforators",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Muscarinic antagonist",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Large pulmonary embolus",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) The vascular protrusion drains into the inferior rectal vein.",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Cranial ultrasonography",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Generation of free radicals",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Basal pons",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Vitamin B12 deficiency",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Inferior frontal gyrus + superior temporal gyrus",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Treating the underlying illness",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Spinal metastasis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Runs posteriorly from the medial femoral condyle",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Impaired migration of GnRH neurons",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Chronic obstructive pulmonary disease",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Phosphoinositol system\n\nExplanation: Ipratropium bromide is an anticholinergic agent that blocks muscarinic acetylcholine receptors, particularly the M3 receptors in the airways. This inhibition prevents the activation of the phospholipase C pathway, which is part of",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "output": "A) Iron supplementation only",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Needle decompression",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Meconium aspiration",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Inferior petrosal sinus sampling",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Reassure the mother",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Tetrahydrobiopterin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) \u2193 \u2191 \u2191\n\nExplanation:  \nThis patient has severe hyponatremia (serum sodium 119 mEq/L) with normal or elevated serum ADH (arginine vasopressin), and a history of stroke and depression. The presence of hyponatremia with normal or",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Decreased methylmalonic acid levels\n\nExplanation: The patient presents with symptoms of weakness, light-headedness, palpitations, and tongue soreness, along with a low hematocrit (29%), neutrophils with 7 lobes (indicative of vitamin B12 deficiency), and large oval",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Haloperidol and diphenhydramine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Copper\n\nExplanation: The clinical presentation\u2014unsteady gait, dysmetria, intention tremor, dysarthria, dystonia, and the ophthalmologic finding of multi-colored irises with concentric rings (Kayser-Fleischer rings)\u2014is classic for Wilson disease. Wilson disease is a genetic",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Decreased release of glycine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Defective collagen type 3",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Trichomonas vaginalis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Analysis of variance",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Celiac disease",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Isopropanol-based solution",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Neuroleptic malignant syndrome",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Treat and transfer the patient after she makes a written request",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Mesna",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Ketamine\n\nKetamine has been shown to have anti-hyperalgesic effects and can reduce the development of postoperative hyperalgesia, especially in patients with a history of chronic opioid use or opioid tolerance. It acts as a NMDA receptor antagonist, which helps prevent central sensitization and",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Joint effusion and pannus on ultrasound",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Erythromycin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Colistin\n\nRationale: This patient has a febrile, hypoxic, and severely ill elderly man with a history of immunosuppression (metastatic colon cancer, recent chemotherapy), chronic lung disease, and a history of recurrent exacerbations. He has a new left upper lobe infiltr",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Obesity",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Peaked T waves",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Aortic regurgitation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Pulmonary artery",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Silent thyroiditis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Progestin therapy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Rotavirus",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Deposits of IgG and C3 at the glomerular basement membrane on immunofluorescence",
+      "invalid": false,
+      "mismatch": true
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Uterine artery\n\nExplanation: The patient developed acute renal failure with oliguria and hematuria after laparoscopic hysterectomy, following ligation of multiple vessels. The key clue is that the renal ultrasound is normal and the cause is likely due to vascular compromise. The most common cause of postoperative acute",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) \u043a receptor agonist and \u03bc receptor antagonist",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Reassuring the parents and use of an enuresis alarm",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Inhibition of 14-alpha-demethylase",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Interleukin-10",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "output": "A) Aortic stenosis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "output": "A) Clostridium botulinum\n\nRationale: The infant presents with poor feeding, decreased wet diapers, lethargy, increased tone, clenched jaw, and clenching of hands\u2014classic signs of botulism. The onset is postnatal (within days), and the history of poor l",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Conversion of a protein from an a-helix to a \u00df-pleated form, which resists degradation.",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Open reduction of the tuberosity",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Reduction in airway surface tension",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Na+/Cl- cotransporter in the membranes of epithelial cells in the distal convoluted tubule",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Oligoclonal IgG bands on electrophoresis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Irregular ductal glands lined by atypical and pleomorphic cells",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Oral ulcers",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Naloxone",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Periodic acid-Schiff",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Left cord hemisection",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) IFN-gamma",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Incision and drainage",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "output": "B) Adverse drug reaction\n\nRationale: The patient has a history of type 2 diabetes and hypertension, and his renal function deteriorates three days after admission for acute diverticulitis. His initial creatinine was 1.2 mg/dL, and it rises to 2.9 mg/dL",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Nystatin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Protein C deficiency",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Adenomatous polyp",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Photophobia and phonophobia",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Bacterial translocation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Breast cancer",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Diarrhea",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) p24",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Amoxicillin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Endometrial sloughing and uterine contractions mediated by prostaglandin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Vascular dementia",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Chronic obstructive pulmonary disease",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Zenker's diverticulum",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Bladder catheterization",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Erythromycin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Clostridium perfringens",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Heparin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Epinephrine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Genu varum",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Ultrasonography of the neck",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Chickenpox",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Upper endoscopy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Urine ketones",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Myxedema coma",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Obstruction of the cystic duct",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Apply a simple shoulder sling",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Hair tourniquet syndrome",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Tetrabenazine therapy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Amniotic fluid entering the endocervical veins",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Erythrocytes with a ring of relative pallor",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Monoclonal gammopathy of undetermined significance (MGUS)",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) HER2",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Double-positive T cell",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Positive Congo-red staining of the cardiac tissue",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Increase in cardiac output",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) 190/250",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Ketotifen eye drops",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Beta-1 adrenergic receptor\n\nExplanation: The patient is presenting with acute ST-elevation myocardial infarction (STEMI), as evidenced by ST elevations in leads I, aVL, V3\u2013V6, which suggest left main or lateral wall involvement. She has a history of",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) D-dimer",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Segmental demyelination of peripheral axons",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Tracheobronchial rupture",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "output": "A) Bipolar I disorder\n\nThe patient has a history of recurrent episodes of depressed mood and elevated mood (mania or hypomania), which are key features of bipolar disorder. The episodes of depression are not tied to specific life events and last for several weeks, and she has had episodes of elevated mood with increased productivity",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Inhibiting bacterial adherance and colonization of mucous membranes",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Increased ciliary muscle tone",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Conversion of aminolevulinic acid to porphobilinogen",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Vaginal septum\n\nExplanation:  \nThe patient is a 16-year-old female with absent menstruation (primary amenorrhea), despite normal breast development (Tanner IV), pubic hair development (Tanner IV), and a normal body mass index. She has a history of headaches with photos",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Increased gene expression of GLUT-4",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Ewing sarcoma",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Patients can have a history of both anorexia and bulimia",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Mismatch repair\n\nExplanation: The patient has a family history of colorectal, ovarian, and pancreatic cancers, which suggests a hereditary cancer syndrome. The presence of a colorectal adenocarcinoma in a patient with a strong family history of gastrointestinal and other cancers, especially with early-onset disease,",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Hyaline membranes lining the alveoli on lung biopsy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Involuntary hospitalization after informing the parents",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Transferrin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Left frontal lobe\n\nExplanation: The patient presents with sudden onset speech disturbances (aphasia) and right arm weakness. The speech disturbance with disorganized, nonsensical words suggests Broca's aphasia or global aphasia, which is typically caused by damage to the left frontal lobe, particularly in the",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Lower extremity doppler",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Hemolytic uremic syndrome",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Schizotypal personality disorder",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Pseudocyesis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Anti-Jo-1 antibody\n\nWait \u2014 correction: This patient has dry eyes and oral mucosal ulceration with lymphocytic infiltration of salivary glands, which is classic for **Sj\u00f6gren's syndrome**. The question asks which antibody is most likely seen.\n\nIn Sj\u00f6gren's",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Orthostatic proteinuria\n\nExplanation:  \nThe patient is a 68-year-old man with chronic fatigue and back pain, and lab findings show anemia (hemoglobin 9.8 g/dL), elevated serum creatinine (2.7 mg/dL), and elevated uric acid (6",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Hepatic steatosis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Check hepatitis B serology",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Telomerase",
+      "invalid": false,
+      "mismatch": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Papilledema",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Lysosomal rupture",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "output": "A) Endoscopic sclerotherapy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Muscle relaxation time: increased, cytosolic calcium concentration: increased",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Acral lentiginous",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Chronic, non-bacterial prostatitis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Propranolol",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Portal vein thrombosis\n\nExplanation:  \nThe patient has alcoholic liver cirrhosis with significant ascites, altered mental status, asterixis, and elevated ammonia (100 \u00b5g/dL), which is consistent with hepatic encephalopathy. The key findings that point to a precipitating",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Zinc",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Observe and get follow-up imaging in 3 months",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) 3 months prior to conception, begin a restricted diet to lower phenylalanine levels to below 6 mg/dL",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) Vesicovaginal fistula",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Neuron-specific enolase",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) 5% dextrose IV with 0.45% saline IV",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Zika virus\n\nRationale: The patient presents with a history of fever, headache, myalgias, arthralgias, and a pruritic rash during early pregnancy, followed by fetal microcephaly at 32 weeks. She had recent travel to Brazil, where Zika virus is endemic,",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) Cefotaxime\n\nRationale:  \nThe patient presents with acute vertigo, vomiting, complete hearing loss, and a suppurative, erythematous, bulging tympanic membrane with immobile tympanic membrane on pneumatoscopy. These findings are consistent with acute otitis media (A",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Tachycardia",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Systemic lupus erythematosus",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Imipramine\n\nRationale: The patient presents with excessive daytime sleepiness despite adequate nighttime sleep, no evidence of sleep apnea (no snoring or apnea), and normal sleep architecture as per the sleep study (mean sleep latency of 6 minutes, which is within the range of normal but on",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Aortic dissection",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Hypoxanthine-guanine phosphoribosyl transferase of the purine metabolism pathway",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Polycystic ovarian syndrome (PCOS)",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) No recommendations needed",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Gastroesophageal reflux",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Iron deficiency",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Vitamin B12 injections",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Sodium hypochlorite",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Buspirone",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) It reflects a smaller sample size",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Gonadal mosaicism",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Anti-D IgG",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) 50%",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Concave flow-volume loop",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Functional residual capacity",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Metabolic alkalosis\n\nExplanation: The infant presents with recurrent projectile vomiting, a palpable epigastric mass, and signs of dehydration and irritability. The clinical scenario is classic for a gastric outlet obstruction, most commonly due to a pyloric stenosis in infants. Pyloric stenosis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) NH3 + HCO3- + 2 ATP --> carbamoyl phosphate + 2 ADP + Pi",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "output": "B) Pinna",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Oral glucose tolerance test",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) High-density lipoprotein",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Decreased PTH, decreased calcium, increased phosphate, decreased calcitriol",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Endometrial cells",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Adjustment disorder",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "output": "A) Follow the daughter\u2019s wishes to withhold the operation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Decreased Ca2+ influx in phase 0",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Relapse",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Motivational interviewing",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Propranolol",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Potassium hydroxide preparation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Erosions of the dental enamel",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Rosiglitazone",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Aspirin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Pelvic inflammatory disease",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Stop magnesium sulfate and give calcium gluconate",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Chromosome 18\n\nExplanation: The clinical features described\u2014high-pitched cry, microcephaly, epicanthal folds, holosystolic murmur, and developmental delay\u2014are classic for **chromosome 18** abnormalities, particularly **18p- (monosomy 18",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Beeturia",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Dermis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Hemolytic uremic syndrome",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Troponin T",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Osteitis fibrosa cystica",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Ethylene glycol",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Sexually transmitted infection",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Lysosomes",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) \u2193 hemosiderin stores",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Electroconvulsive therapy (ECT)",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Neoplastic growth",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Anti-cardiolipin\n\nExplanation: The patient has a history of recurrent miscarriages (spontaneous abortions before 10 weeks) and a characteristic rash (cord-like, tender, lacy mottled violaceous rash). This clinical picture is highly suggestive of antiphospholipid syndrome (",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Multiple peptic ulcers",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "output": "B) Elective endovascular repair",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) Heat stroke",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Brucellosis\n\nExplanation: The clinical presentation\u2014generalized malaise, rash following exposure to an animal shelter, tender lymphadenopathy, and necrotizing granulomas\u2014suggests a zoonotic infection. The history of exposure to animals and the hand rash with lymphadenopathy are classic",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Increased follicle stimulating hormone",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Informed consent is not needed in this case",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Elevated serum calcium\n\nExplanation:  \nThe patient presents with a history of acute intoxication (opiates and cocaine), altered mental status, dehydration, and signs of acute kidney injury (tea-colored urine, high specific gravity, glycosuria, ketonuria). The presence of cocaine and opiates, especially in",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) MRI",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Conservative management with IV fluid hydration and observation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) The future risk of open-angle glaucoma is the same in patients with and those without diabetes",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Past medical history of breast cancer",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Streptococcus pneumoniae",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Hyperkalemia",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Thoracic aortic aneurysm",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Ehlers-Danlos syndrome",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Presence of embryological remnant",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "output": "A) CT chest without contrast in 24 months",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) pH 7.36, PCO2 22 mmHg, and HCO3- 16 mEq/L",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Systemic corticosteroids",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Lambert-Eaton syndrome",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Pes anserine bursitis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Dietary restriction of phenylalanine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Melanosis coli",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Check serum electrolytes",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Left coronary artery\n\nExplanation: The patient presents with typical features of an acute myocardial infarction (MI), including severe substernal chest pain, ST elevations in leads I and aVL, and clinical signs of cardiac compromise. Leads I and aVL represent the anterolateral wall of the left",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Pheochromocytoma",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Intubation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Impaired CSF drainage into the subarachnoid space",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Inhibition of lipase",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Digital rectal examination",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) env gene mutation\n\nExplanation: The patient is an HIV-positive child on HAART with a previously undetectable viral load (<50/mL), but now has a rebound in viral load (25,050/mL) despite therapy. The key point is that her CD4 count is only 1",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Conversion disorder",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Inhibits viral assembly",
+      "invalid": false,
+      "mismatch": true
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) CA 19-9",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Vaginal dilatory therapy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Anti-histone bodies\n\n**Correction:** The correct answer is not \"Anti-histone bodies\" \u2014 that is not a standard or recognized antibody. Let's re-evaluate.\n\nGiven the clinical scenario:\n\n- A 55-year-old man with:\n  - Bloody nasal secretions\n  - Weight",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) VIPoma",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Monoamine reuptake antagonist",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Obstruction of the common bile duct",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Avoidant personality disorder",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Leads to intracellular aggregations of hyperphosphorylated tau protein",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Defective hepatic bile excretion",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) A drop in systolic blood pressure of 14 mmHg during inspiration",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Reversible inhibition of H+/K+-ATPase at parietal cells",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Decreased calcitriol concentration",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Area postrema",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Endocardial cushion\n\nExplanation: The clinical presentation\u2014easy fatigue, shortness of breath, a harsh pansystolic murmur heard at the left sternal border that intensifies with squatting, and a history of delayed growth\u2014suggests a ventricular septal defect (VSD), specifically a large",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Fomepizole\n\nExplanation: The patient presents with confusion, ataxia, slurred speech, and a metabolic acidosis with low bicarbonate and low PaCO2 (indicating respiratory alkalosis due to hyperventilation), which is consistent with ethyl alcohol or drug-induced intoxication.",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Lactose-fermenting, gram-negative rods forming pink colonies on MacConkey agar\n\nExplanation:  \nThe clinical presentation \u2014 fever, chills, left lower quadrant pain, pelvic examination findings (mucopurulent discharge, adnexal tenderness), and laboratory findings (thromboc",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Skin of the mons pubis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Prolonged QT interval",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Aortoiliac atherosclerosis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "B",
+      "output": "B) Perform C. difficile toxin assay",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Cochlea",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Increasing the number of screened individuals",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Sargramostim",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "D",
+      "output": "D) Polyribosyl-ribitol-phosphate capsule\n\nExplanation: The patient has a history of travel to South America, fever, malaise, chest pain, dry cough, and bilateral pulmonary infiltrates on chest X-ray. These findings are consistent with a pulmonary infection, particularly one caused by *Bordet",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Addition of bupropion",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Vitamin K deficiency",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Papillary dermis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Negatively birefringent crystals in the urine",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) New York Heart Association Class III",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Cognitive-behavioral therapy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Inflammatory rheumatological syndrome",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Proximal tubule\n\nExplanation: In this patient, who has vomiting and diarrhea leading to dehydration and mild hypovolemia, the primary site of sodium reabsorption in the kidney is the proximal tubule. The proximal tubule reabsorbs approximately 65\u201370%",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Protease-resistant antibodies in nasal secretions",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Molluscum contagiosum\n\nExplanation: The clinical presentation of multiple small, non-pruritic, dome-shaped, hardened papules with central umbilication on the left thigh, along with non-tender cervical lymphadenopathy, is classic for molluscum contagiosum. This viral skin infection",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Myasthenia gravis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Coagulase-positive cocci in clusters",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "output": "A) Cervical spine fracture",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Oxidation of Fe2+ to Fe3+",
+      "invalid": false,
+      "mismatch": true
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Fludarabine, cyclophosphamide, rituximab",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Theca leutein cysts",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Epstein barr virus (EBV)",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "output": "B) Clozapine\n\nRationale: The patient presents with a history of depression, anxiety, and medication non-compliance, along with behavioral agitation, oral ulcers, and a history of non-compliance. The physical exam findings\u2014poor hygiene, odd body odor, multiple oropharyngeal ulcers",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Duodenal atresia\n\nExplanation: The infant presents with bilious vomiting, abdominal distension, and failure to pass meconium\u2014classic signs of an obstructive gastrointestinal condition. The maternal quadruple screen results show decreased AFP, increased beta-hCG, decreased estriol, and increased inhibin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Systemic sclerosis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "A",
+      "output": "A) Angle-closure glaucoma",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Urinalysis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Pleural effusion",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Aortic dissection\n\n**Correction:** This answer is incorrect. Let's re-evaluate based on the clinical scenario.\n\nThe patient has:\n- Episodic, squeezing/tightness chest pain\n- No association with exertion or food\n- Normal EKG at presentation\n- Transient ST elevations",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "output": "A) This patient does not require further urinary tests unless she becomes symptomatic.",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Post traumatic stress disorder",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Decreased heart rate",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Prednisone",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Borderline personality disorder",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Palpable mass in the right lower quadrant",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Duodenal atresia",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Increased right ventricular afterload",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Creates pores in the cell membrane",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Echocardiogram",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Elevated serum CA-125 level",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Administer calcium gluconate",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Elevated serum TSH level",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Asbestosis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Sex chromosome monosomy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Caseous necrosis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Enveloped with linear, single-stranded RNA",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Depression of the respiratory center via opioid receptors activation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Respiratory burst",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Auto-antibodies directed against phospholipids",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Cholecystitis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Gram-positive cocci in chains",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Sensorineural hearing loss",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Metoprolol",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Laparoscopy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Buspirone",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Filgrastim",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Surgical debridement",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "D",
+      "output": "D) Upper gastrointestinal endoscopy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Lithium\n\nLithium is associated with increased risk of osteoporosis and bone loss due to its effect on calcium metabolism and reduced bone formation. Among the listed medications, lithium is the one most directly linked to bone loss and should be considered for discontinuation or adjustment in a patient with osteopenia,",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Crohn\u2019s disease",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Hydrochlorothiazide",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Constriction of afferent arteriole and no effect on efferent arteriole",
+      "invalid": false,
+      "mismatch": true
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Pericardiocentesis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "B",
+      "output": "B) Positive whiff test",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Increase in false negative test results\n\nExplanation: Raising the hemoglobin A1c cut-off from 6.5% to 7.0% means that only patients with A1c values above 7.0% will be diagnosed with diabetes. This raises the threshold for diagnosis, so individuals with",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Amphotericin B",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Celiac artery",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Spermicidal foam",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Radiograph",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Schistocytes",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Orchiopexy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Thermophiles",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "A",
+      "output": "A) Administer a blood transfusion to save the patient's life",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Intubate with mechanical ventilation",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Airway remodeling",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Chronic kidney failure\n\nRationale: The patient has a history of elevated BUN and creatinine (from 45 mg/dL and 2.0 mg/dL four months ago to 59 mg/dL and 2.3 mg/dL), along with anemia (hemoglobin ",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Sofosbuvir and ledipasvir therapy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "B",
+      "output": "B) Human herpes virus\n\nExplanation: The patient presents with recurrent seizures, headache, and a brain lesion showing perivascular lymphocytic infiltration on MRI, with a biopsy revealing perivascular lymphocytes. This pattern is characteristic of **progressive multifocal leukoencephalopathy (PML)**, which",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Renal deposition of AL amyloid",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Cardiac contusion",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Lymphadenopathy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Pulmonary embolism\n\nExplanation: The patient has a history of massive trauma with significant blood loss, and despite aggressive resuscitation, his vital signs remain unstable with poor mixed venous oxygen saturation (ScvO2 of 39%), cold extremities, and persistent hypotension. The Sc",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Polymyositis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Perforated gastric peptic ulcer",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Percutaneous coronary intervention",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Parietal cells",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Osmotic diuresis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "A",
+      "output": "A) Postviral inflammatory process\n\nExplanation: The clinical presentation\u2014fever, malaise, neck pain, left-sided thyroid enlargement with tenderness, worse with neck hyperextension and improved with neck flexion\u2014along with normal thyroid function tests and ultrasound findings of a unifocal perithyroidal hypoecho",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "A",
+      "output": "A) Desensitization",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Xanthochromia on cerebrospinal fluid analysis",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "C",
+      "output": "C) Primary adrenal insufficiency",
+      "invalid": false,
+      "mismatch": true
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Reassurance",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Lipomastia (pseudogynecomastia)",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Gastric peptic ulcer",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Request consent for urine test to assess current drug use",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Increased consumption of beta-carotene",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Racemic epinephrine and intramuscular corticosteroid therapy",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Administer anti-D immunoglobulin shortly after delivery",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Accept the patient's wishes and ensure he receives appropriate care.",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Peripheral blood smear",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "C",
+      "output": "C) Medication change",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Blocks reuptake of norepinephrine and serotonin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) Pedal edema and flushing",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Triamterene",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Continuous mucosal damage",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Increased production of nitric oxide",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) Upregulation of hepcidin",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Hypergammaglobulinemia",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "D",
+      "pred": "D",
+      "output": "D) Hyperplasia of the adrenal cortex",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "D",
+      "output": "D) Referral for surgery",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "C",
+      "pred": "C",
+      "output": "C) High TSH",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "A",
+      "pred": "C",
+      "output": "C) IgA protease",
+      "invalid": false,
+      "mismatch": false
+    },
+    {
+      "gold": "B",
+      "pred": "B",
+      "output": "B) Relative protein intake",
+      "invalid": false,
+      "mismatch": false
+    }
+  ]
+}
